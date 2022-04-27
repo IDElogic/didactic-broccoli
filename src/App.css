@@ -4,7 +4,6 @@ h1 {
     font-family: 'Righteous', cursive; 
     font-size: 70px;
     font-weight: 500;
-    text-transform: uppercase;
     color: aliceblue;
     margin: 3rem;
     padding: 3rem;
@@ -16,3 +15,4 @@ h1 {
     text-align: center;
     
 }
+
