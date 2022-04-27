@@ -1,0 +1,25 @@
+/*tc bg-gray dib br2 pa3 ma2 grow dim*/
+
+.card {
+    border-radius: 2px;
+    text-align: center;
+    padding: 2rem;
+    margin: 3rem;
+    background-color: rgba(2,0,3, .2);
+    color: aliceblue;
+}
+
+.card img {
+    width: 100%;
+    padding: 2rem;
+    margin: 2rem;
+    border-radius: 3px;
+    background-color: rgba(2,0,3, .5);
+    border:1px solid rgba(237, 45, 160, 0.2);
+}
+.card h2 {
+    font-size: 25px;
+    font-weight: 500;
+    font-family: 'Quicksand', sans-serif;
+    color: coral;
+}
