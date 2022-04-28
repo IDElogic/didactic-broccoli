@@ -1,0 +1,98 @@
+.app__footer {
+    width: 100%;
+    height: 60%;
+    position: relative;
+    z-index: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(2,0,3,.6);
+    padding-top:0 ;
+}
+
+.app__footer-links {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 2rem;
+    padding: 0  2rem; 
+    background-color: rgba(2,0,3,.6);  
+}
+
+.app__footer-links_contact,
+.app__footer-links_address {
+    flex: 1;
+    margin: .5rem;
+    text-align: center;
+}
+
+.app__footer-headtext {
+    font-family: var(--font-base);
+    color: aliceblue;
+    font-weight: 600;
+    font-family: 'Quicksand', sans-serif;
+    letter-spacing: .2em;
+    text-transform:uppercase;
+    line-height: 28px;
+    font-size: 20px;
+    margin-bottom: .5rem;
+}
+.app__footer-links_address,
+.app__footer-links_contact p {
+    font-family: var(--font-base);
+    color: aliceblue;
+    font-weight: 400;
+    font-family: 'Quicksand', sans-serif;
+    letter-spacing: .2em;
+    text-transform:uppercase;
+    line-height: 28px;
+    font-size: 16px;
+    margin-bottom: 1rem;
+}
+.footer__copyright {
+    color:aliceblue; 
+    font-family: 'Quicksand', sans-serif;
+    letter-spacing: .2em;
+    
+    font-size: 14px;
+    font-weight: 600; 
+    margin-top: 1rem; 
+}
+.footer__copyright a {
+    color:rgba(253,29,29,1);
+    font-family: 'Quicksand', sans-serif;
+    letter-spacing: .5em;
+    line-height:20px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600; 
+    margin-top: 1rem; 
+}
+
+@media screen and (min-width: 2000px) {
+    .app__footer-headtext {
+        font-size: 28px;
+        line-height: 61px;
+    }
+}
+@media screen and (max-width: 1150px) {
+    .app__footer-links {
+        align-items: center;
+        flex-direction: column;
+        padding: 0;    
+    }
+    .app__footer-links_contact,
+    .app__footer-links_waddress {
+        margin:2rem 0;
+        width: 100%;
+    }
+}
+@media screen and (min-width: 650px) {
+    .app__footer {
+        padding: 0 0 2rem 0;
+    }
+}
+
+

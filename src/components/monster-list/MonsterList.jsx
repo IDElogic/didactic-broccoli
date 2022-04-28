@@ -4,7 +4,7 @@ import Monster from '../monster/Monster';
 
 const MonsterList = ( { models }) => { 
     return (
-        <div>
+        <div id='home'>
            {models.map(
             (model)=> {
                 return (   

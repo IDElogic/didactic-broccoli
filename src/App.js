@@ -2,7 +2,9 @@ import React,{ useState, useEffect } from "react";
 import MonsterList from "./components/monster-list/MonsterList";
 import SearchBox from "./components/searchbox/SearchBox";
 import './App.css';
-import LoadingButton from './components/LoadingButton/LoadingButton'
+import LoadingButton from './components/LoadingButton/LoadingButton';
+import Navbar from './components/Navbar/Navbar';
+import Footer from './components/Footer/Footer';
 
 function App () {
     /*constructor() {
@@ -38,10 +40,11 @@ function App () {
         
         return (
             <div className="box">
-                <h1>Monsters</h1>
+                <Navbar />
                 <LoadingButton />
                 <SearchBox searchChange={onSearchChange} />
                 <MonsterList models={filteredModels} />
+                <Footer />
             </div>
         );
     }
