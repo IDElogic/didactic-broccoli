@@ -2,9 +2,9 @@ import React,{ useState, useEffect } from "react";
 import MonsterList from "./components/monster-list/MonsterList";
 import SearchBox from "./components/searchbox/SearchBox";
 import './App.css';
-import LoadingButton from './components/LoadingButton/LoadingButton';
 import Navbar from './components/Navbar/Navbar';
 import Footer from './components/Footer/Footer';
+import Header from './components/Header/Header';
 
 function App () {
     /*constructor() {
@@ -41,7 +41,8 @@ function App () {
         return (
             <div className="box">
                 <Navbar />
-                <LoadingButton />
+                <Header />
+                
                 <SearchBox searchChange={onSearchChange} />
                 <MonsterList models={filteredModels} />
                 <Footer />

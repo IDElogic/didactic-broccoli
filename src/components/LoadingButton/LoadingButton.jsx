@@ -1,5 +1,6 @@
 import React,{ useState, useEffect } from "react";
 import './LoadingButton.css';
+import Monsterb from '../monster/monsterb/Monsterb';
 
 function LoadingButton () {
     const theTime =15;
@@ -20,7 +21,7 @@ function LoadingButton () {
                 <div className="loading-button">
                     <div className="loading-bar" 
                     style={{width: `${(second *100) / theTime}%` }}/>
-                    {second !==0 ? `Loading in ${second} s` : `Well done!  You were patient.`}
+                    {second !==0 ? `Loading in ${second} s` : <Monsterb />}
                 </div>
             </div>
         );
